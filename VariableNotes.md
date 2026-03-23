@@ -8,9 +8,10 @@ Even though you wrote var, Dart automatically understands:
 **Dart is statically typed.**
 
 -Once inferred, the type cannot change
-`var age = 25;
-age = 30;      // ✅ OK
-age = "Hello"; // ❌ Error`
+
+- `var age = 25;`
+- `age = 30;`     // ✅ OK
+- `age = "Hello";` // ❌ Error`
 
 # When to use var?
 
@@ -27,9 +28,9 @@ age = "Hello"; // ❌ Error`
 
 # Explicit Type (Recommended for Clarity)
 
-`String name = "Alex";
-int age = 25;
-double height = 5.9;`
+- `String name = "Alex";`
+- `int age = 25;`
+- `double height = 5.9;`
 
 - Public class properties
 - Function parameters
@@ -39,11 +40,11 @@ double height = 5.9;`
 
 **const**
 `const gravity = 9.8;`
+
 - Compile-time constant, immutable.
 **final**
 - Value assigned once, cannot change.
 `final pi = 3.14;`
-
 
 # Choosing Between var, final, and const
 
