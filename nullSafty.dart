@@ -12,6 +12,9 @@ String? name2;
 late String nameLate;
 
 void main() {
+  // late String name;
+  // print(name); // ❌ Runtime error: LateInitializationError: Field 'name' has not been initialized.
+
   nameLate = "John";
   print(nameLate);
   name = null; // ✅ Allowed

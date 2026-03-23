@@ -8,7 +8,7 @@
 
 - Entry point: main() function.
 - Printing output (print()).
-- Comments (//, /* */).
+- Comments (//, /**/).
 
 **_3. Data Types & Variables_**
 
