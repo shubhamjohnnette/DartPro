@@ -39,12 +39,13 @@ Even though you wrote var, Dart automatically understands:
 - When teaching or improving readability
 
 **const**
-`const gravity = 9.8;`
+
+- `const gravity = 9.8;`
 
 - Compile-time constant, immutable.
 **final**
 - Value assigned once, cannot change.
-`final pi = 3.14;`
+- `final pi = 3.14;`
 
 # Choosing Between var, final, and const
 
