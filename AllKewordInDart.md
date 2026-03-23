@@ -1,6 +1,6 @@
 # 1. Core Dart Keywords (Most Important)
 
-**Variable & Type**
+**_Variable & Type_**
 
 - var
 - final
@@ -8,7 +8,8 @@
 - dynamic
 - late
 
-**Control Flow**
+**_Control Flow_**
+
 - if
 - else
 - switch
@@ -21,7 +22,7 @@
 - continue
 - return
 
-**Functions & Classes**
+**_Functions & Classes_**
 
 - class
 - abstract
@@ -34,14 +35,14 @@
 - super
 - static
 
-**Async Programming**
+**_Async Programming_**
 
 - async
 - await
 - yield
 - sync
 
-**Exception Handling**
+**_Exception Handling_**
 
 - try
 - catch
@@ -49,15 +50,15 @@
 - finally
 - rethrow
 
-**Null Safety**
+**_Null Safety_**
 
 - null
 - true
 - false
 
-# 2. Advanced / Less Used Keywords
+## 2. Advanced / Less Used Keywords
 
-**Library & Imports**
+**_Library & Imports_**
 
 - import
 - export
@@ -65,7 +66,7 @@
 - part
 - part of
 
-**Object-Oriented Features**
+**_Object-Oriented Features_**
 
 - covariant
 - factory
@@ -73,7 +74,7 @@
 - typedef
 - external
 
-**Other Useful Keywords**
+**_Other Useful Keywords_**
 
 - is
 - as
@@ -84,7 +85,7 @@
 - get
 - set
 
-# 3. Contextual Keywords (Special Use)
+## 3. Contextual Keywords (Special Use)
 
 **These behave like keywords only in specific places:**
 
@@ -92,7 +93,7 @@
 - show / hide (imports)
 - deferred (lazy loading imports)
 
-# 4. Keywords You Should Remember (Interview Focus)
+## 4. Keywords You Should Remember (Interview Focus)
 
 **Most important:**
 
@@ -103,7 +104,7 @@
 - try, catch
 - is, as
 
-# Pro Insight
+## Pro Insight
 
 - Dart has ~60+ keywords
 - But in real Flutter development, you’ll mostly use only 15–20 regularly.

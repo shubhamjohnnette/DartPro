@@ -1,16 +1,16 @@
-**1. Introduction to Dart**
+# 1. Introduction to Dart_
 
 - Overview of Dart language and its uses (Flutter, web, server-side).
 - Installing Dart SDK / Flutter.
 - Running Dart programs (dart run).
 
-**2. Dart Syntax & Structure**
+**_2. Dart Syntax & Structure_**
 
 - Entry point: main() function.
 - Printing output (print()).
 - Comments (//, /* */).
 
-**3. Data Types & Variables**
+**_3. Data Types & Variables_**
 
 - Numbers (int, double).
 - Strings (String).
@@ -20,27 +20,27 @@
 - Null safety (? and !).
 - Variable declaration (var, final, const, dynamic).
 
-**4. Operators**
+**_4. Operators_**
 
 - Arithmetic (+, -, *, /, %).
 - Relational (==, !=, <, >).
 - Logical (&&, ||, !).
 - Assignment (=, +=, -=, etc.).
 
-**5. Control Flow**
+**_5. Control Flow_**
 
 - Conditional statements (if, else, switch).
 - Loops (for, while, do-while, for-in).
 - Break and continue.
 
-6. Functions
+**_6. Functions_**
 
 - Defining and calling functions.
 - Parameters (positional, optional, named).
 - Return values.
 - Anonymous functions and arrow functions.
 
-**7. Object-Oriented Programming**
+**_7. Object-Oriented Programming_**
 
 - Classes and objects.
 - Constructors.
@@ -48,26 +48,26 @@
 - Abstract classes and interfaces.
 - Mixins.
 
-**8. Collections**
+**_8. Collections_**
 
 - Lists (growable, fixed-length).
 - Sets.
 - Maps.
 - Iterating collections.
 
-**9. Error Handling**
+**_9. Error Handling_**
 
 - Exceptions (try, catch, finally).
 - Custom exceptions.
 
-**10. Advanced Dart**
+**_10. Advanced Dart_**
 
 - Generics.
 - Asynchronous programming (Future, async, await).
 - Streams.
 - Packages and libraries (import, pub.dev).
 
-**11. Practical Applications**
+**_11. Practical Applications_**
 
 - Writing CLI apps.
 - Using Dart with Flutter for mobile apps.

@@ -59,7 +59,7 @@ Even though you wrote var, Dart automatically understands:
 - Misusing dynamic: Overuse can reduce type safety.
 - Confusing final vs const: final is runtime constant, const is compile-time.
 
-## Dart Data Types 
+## Dart Data Types  
 
 **_Numbers_**
 
@@ -98,7 +98,7 @@ Even though you wrote var, Dart automatically understands:
 - Key-value paires .
 - `Map<String, int> scores = {"Math": 90, "Science": 85};`
 
-**Dynamic** 
+**_Dynamic_**
 
 - Can hold values of any type (less safe).
 
