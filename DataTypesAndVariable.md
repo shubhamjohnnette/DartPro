@@ -13,7 +13,7 @@ Even though you wrote var, Dart automatically understands:
 - `age = 30;`     // ✅ OK
 - `age = "Hello";` // ❌ Error`
 
-# When to use var?
+## When to use var?
 
 - When the type is obvious
 - To reduce clutter
@@ -21,12 +21,12 @@ Even though you wrote var, Dart automatically understands:
 
 `var total = price * quantity;`
 
-# Avoid var when
+## Avoid var when
 
 - The type is unclear
 - Public APIs (be explicit for readability)
 
-# Explicit Type (Recommended for Clarity)
+## Explicit Type (Recommended for Clarity)
 
 - `String name = "Alex";`
 - `int age = 25;`
@@ -38,7 +38,7 @@ Even though you wrote var, Dart automatically understands:
 - Large projects
 - When teaching or improving readability
 
-**const**
+**_const_**
 
 - `const gravity = 9.8;`
 
@@ -47,21 +47,21 @@ Even though you wrote var, Dart automatically understands:
 - Value assigned once, cannot change.
 - `final pi = 3.14;`
 
-# Choosing Between var, final, and const
+## Choosing Between var, final, and const
 
 - Use var when the value may change.
 - Use final when the value is set once but determined at runtime.
 - Use const when the value is fixed at compile-time.
 
-# Common Pitfalls
+## Common Pitfalls
 
 - Forgetting null safety: String name; without initialization causes an error.
 - Misusing dynamic: Overuse can reduce type safety.
 - Confusing final vs const: final is runtime constant, const is compile-time.
 
-# Dart Data Types 
+## Dart Data Types 
 
-**Numbers**
+**_Numbers_**
 
 - int whole number .
 - double decimal number .
@@ -69,31 +69,31 @@ Even though you wrote var, Dart automatically understands:
 - `int age = 20 ;`
 - `double pi = 3.14159;`
 
-**String**
+**_String_**
 
 - Sequence of charecter enclosed in '' or " "
 - `String name - "Alice";`
 - `String greeting = 'Hello Dart!';`
 
-**Boolean**
+**_Boolean_**
 
 - Represents true or false .
 
 - `bool isActive = true;`
 - `bool isLoggedIn = false;`
 
-**List(Array)**
+**_List(Array)_**
 
 - Ordered collection of items .
 
 - `List <String> fruits = ["Apple", "Banana" , "Mango"];`
 
-**Set**
+**_Set_**
 
 - Unordered collection of unique items .
 - `Set<int> numbers = {1, 2, 3, 3}; // stores only {1,2,3}`
 
-**Map**
+**_Map_**
 
 - Key-value paires .
 - `Map<String, int> scores = {"Math": 90, "Science": 85};`
@@ -105,7 +105,7 @@ Even though you wrote var, Dart automatically understands:
 - `dynamic value = "Hello";`
 - `value = 123; // allowed`
 
-**Null Safety**
+**_Null Safety_**
 
 - By default, variables cannot be null.
 - Use ? to allow null values.
