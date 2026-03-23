@@ -58,3 +58,56 @@ Even though you wrote var, Dart automatically understands:
 - Forgetting null safety: String name; without initialization causes an error.
 - Misusing dynamic: Overuse can reduce type safety.
 - Confusing final vs const: final is runtime constant, const is compile-time.
+
+# Dart Data Types 
+
+**Numbers**
+
+- int whole number .
+- double decimal number .
+
+- `int age = 20 ;`
+- `double pi = 3.14159;`
+
+**String**
+
+- Sequence of charecter enclosed in '' or " "
+- `String name - "Alice";`
+- `String greeting = 'Hello Dart!';`
+
+**Boolean**
+
+- Represents true or false .
+
+- `bool isActive = true;`
+- `bool isLoggedIn = false;`
+
+**List(Array)**
+
+- Ordered collection of items .
+
+- `List <String> fruits = ["Apple", "Banana" , "Mango"];`
+
+**Set**
+
+- Unordered collection of unique items .
+- `Set<int> numbers = {1, 2, 3, 3}; // stores only {1,2,3}`
+
+**Map**
+
+- Key-value paires .
+- `Map<String, int> scores = {"Math": 90, "Science": 85};`
+
+**Dynamic** 
+
+- Can hold values of any type (less safe).
+
+- `dynamic value = "Hello";`
+- `value = 123; // allowed`
+
+**Null Safety**
+
+- By default, variables cannot be null.
+- Use ? to allow null values.
+
+- `String? nickname; // can be null`
